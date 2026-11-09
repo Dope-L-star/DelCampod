@@ -1,0 +1,9 @@
+DEL CAMPO — todo en un solo zip
+================================
+1) Suba ESTE zip tal cual (sin descomprimir) a Cloudflare Pages: Carga directa (Upload assets).
+2) Conecte la base de datos D1 con el nombre DB (una sola vez). Pasos en codigo-fuente/README.md
+3) Listo: el dueño y los clientes ven lo mismo desde cualquier celular.
+
+Dentro del zip:
+  index.html, app.js, app.css, _worker.js, ... -> el sitio ya compilado (lo que se publica)
+  codigo-fuente/                               -> el proyecto completo para modificarlo (no se muestra en internet)
